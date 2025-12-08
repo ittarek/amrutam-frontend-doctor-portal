@@ -4,7 +4,7 @@ import { Facebook, Instagram, Linkedin, Twitter, Youtube } from 'lucide-react';
 import { Container } from '../Shared/Container';
 
 // src/data/footerNavItems.js
-export const footerNavItems = [
+ const footerNavItems = [
     {
         id: 1,
         title: "Information",

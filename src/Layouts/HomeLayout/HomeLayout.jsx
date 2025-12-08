@@ -11,8 +11,8 @@ export const HomeLayout = () => {
             <main className=" min-h-[calc(100vh-200px)]">
                 <Outlet />
             </main>
-   
-<Footer/>
+
+            <Footer />
         </>
     )
 }
