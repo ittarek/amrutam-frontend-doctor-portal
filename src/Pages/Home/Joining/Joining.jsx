@@ -91,6 +91,13 @@ export const Joining = () => {
                         <h2 className="text-[#3A643C] font-[' DM_Sans'] font-bold text-2xl leading-none align-middle mb-4">Consultation Details</h2>
                         <img src={process3} alt="image 3 from process3" />
                     </div>
+
+
+                    <div className='w-full flex justify-center mt-8 md:mt-12 lg:mt-16'>
+                        <Button className="bg-[#3A643C] text-white" variant="main">
+                            Join now
+                        </Button>
+                    </div>
                 </div>
 
             </Container>
