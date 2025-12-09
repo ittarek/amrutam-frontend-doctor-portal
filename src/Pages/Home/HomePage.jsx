@@ -5,6 +5,7 @@ import { Choosing } from './Choosing/Choosing'
 import { Joining } from './Joining/Joining'
 import { Connect } from './Connect/Connect'
 import { FAQ } from './FAQ/FAQ'
+import { Testimonials } from './Testimonial/Testimonials'
 
 
 export const HomePage = () => {
@@ -13,6 +14,7 @@ export const HomePage = () => {
             <Featured />
             <Choosing />
             <Joining />
+            <Testimonials/>
 <FAQ/>
 
             <Connect/>
