@@ -7,6 +7,7 @@ import { Connect } from './Connect/Connect'
 import { FAQ } from './FAQ/FAQ'
 import { Testimonials } from './Testimonial/Testimonials'
 import { Appointment } from './Appointment/Appointment'
+import ScrollToTopButton from '@/components/ui/ScrollToTopButton'
 
 
 export const HomePage = () => {
@@ -19,6 +20,7 @@ export const HomePage = () => {
             <FAQ />
 <Appointment/>
             <Connect />
+            <ScrollToTopButton />
         </>
     )
 }
