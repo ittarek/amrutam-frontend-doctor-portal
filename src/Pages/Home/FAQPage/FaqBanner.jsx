@@ -12,10 +12,18 @@ export const FaqBanner = () => {
         >
             <div className="flex flex-col gap-6 pt-11 items-center">
                 <h1>FAQ</h1>
-                <div className="flex items-center relative">
-                    <span className="absolute pl-2 mr-6"><Search /></span>
-                    <input className="w-[400px]  py-3  px-3 rounded-lg bg-white" type="text" placeholder="Search for any queries that you have" />
+                <div className="relative flex items-center">
+                    <span className="absolute left-3 text-gray-500">
+                        <Search className="w-5 h-5" />
+                    </span>
+
+                    <input
+                        type="text"
+                        placeholder="Search for any queries that you have"
+                        className="w-full md:w-[500px] py-3 pl-10 pr-3 rounded-lg bg-white"
+                    />
                 </div>
+
             </div>
         </div>
     );

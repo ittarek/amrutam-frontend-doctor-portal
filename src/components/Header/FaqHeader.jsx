@@ -54,7 +54,7 @@ export const FaqHeader = () => {
                 </div>
                 {/* nav items */}
                 <nav>
-                    <ul className="flex gap-6 items-center px-2">
+                    <ul className="flex flex-wrap justify-center gap-6 items-center px-2">
                         {navItems.map((item) => (
                             <li className="text-[#3A643C] font-['DM_Sans'] font-semibold text-xl leading-[140%] capitalize" key={item.id}>
                                 <Link to={item.link}>{item.name}</Link>
