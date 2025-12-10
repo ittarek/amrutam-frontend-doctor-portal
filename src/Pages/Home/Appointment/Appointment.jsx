@@ -71,7 +71,7 @@ export const Appointment = () => {
                     </div>
 
                     {/* image */}
-                    <div className='w-full lg:w-1/2 flex justify-center lg:justify-end relative'>
+                    <div className='w-full flex lg:w-1/2  justify-center lg:justify-end relative'>
                         <img
                             className='max-w-full h-auto  lg:max-w-none relative'
                             src={appImage}
@@ -80,22 +80,22 @@ export const Appointment = () => {
 
                         {/* person images */}
                         <img
-                            className='absolute top-20 left-20 w-16 h-16 md:w-20 md:h-20 lg:w-28 lg:h-28 rounded-full border-4 border-white'
+                            className='hidden md:absolute top-20 left-20 w-16 h-16 md:w-20 md:h-20 lg:w-28 lg:h-28 rounded-full border-4 border-white'
                             src={person1}
                             alt="person1"
                         />
                         <img
-                            className='absolute top-1/3 right-0 left-160 w-16 h-16 md:w-20 md:h-20 lg:w-28 lg:h-28 rounded-full border-4 border-white'
+                            className='hidden md:absolute top-1/3 right-0 left-160 w-16 h-16 md:w-20 md:h-20 lg:w-28 lg:h-28 rounded-full border-4 border-white'
                             src={person2}   
                             alt="person2"
                         />
                         <img    
-                            className='absolute bottom-70 left-40 w-16 h-16 md:w-20 md:h-20 lg:w-16 lg:h-16 rounded-full border-4 border-white'
+                            className='hidden md:absolute bottom-70 left-40 w-16 h-16 md:w-20 md:h-20 lg:w-16 lg:h-16 rounded-full border-4 border-white'
                             src={person3}
                             alt="person3"
                         />
                         <img
-                            className='absolute bottom-50 right-0 left-165 w-16 h-16 md:w-20 md:h-20 lg:w-16 lg:h-16 rounded-full border-4 border-white'
+                            className='hidden md:absolute bottom-50 right-0 left-165 w-16 h-16 md:w-20 md:h-20 lg:w-16 lg:h-16 rounded-full border-4 border-white'
                             src={person4}
                             alt="person4"
                         />
