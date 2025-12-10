@@ -1,12 +1,12 @@
 import * as React from "react"
 import * as AccordionPrimitive from "@radix-ui/react-accordion"
 import { Plus } from "lucide-react"
-
 import { cn } from "@/lib/utils"
-
 const Accordion = AccordionPrimitive.Root
-
 const AccordionItem = React.forwardRef(({ className, ...props }, ref) => (
+
+
+
     <AccordionPrimitive.Item ref={ref} className={cn("border-b", className)} {...props} />
 ))
 AccordionItem.displayName = "AccordionItem"
@@ -21,8 +21,20 @@ const AccordionTrigger = React.forwardRef(({ className, children, ...props }, re
             )}
             {...props}>
             {children}
-            <Plus
+            {<Plus
                 className="h-4 w-4 shrink-0 text-muted-foreground transition-transform duration-200" />
+            }
+            {/* Dynamic Icon */}
+            {/* {isHome ? (
+                <Plus className="h-4 w-4 shrink-0 transition-transform duration-200" />
+            ) : isFaq ? (
+                <ChevronDown className="h-4 w-4 shrink-0 transition-transform duration-200" />
+            ) : (
+                <ChevronDown className="h-4 w-4 shrink-0 transition-transform duration-200" />
+            )} */}
+
+
+
         </AccordionPrimitive.Trigger>
     </AccordionPrimitive.Header>
 ))

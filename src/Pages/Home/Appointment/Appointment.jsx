@@ -15,6 +15,8 @@ import person2 from "@/assets/app/person2.png"
 import person3 from "@/assets/app/person3.png"
 import person4 from "@/assets/app/person4.png"
 
+import play from "@/assets/faq/icon/play.png"
+import appsTore from "@/assets/faq/icon/appstore.png"
 const appointments = [
     {
         id: 1,
@@ -68,6 +70,15 @@ export const Appointment = () => {
                                 </div>
                             ))}
                         </div>
+                   
+                            {/* app icon */}
+                                       <div className='flex flex-wrap items-center gap-6 mx-auto md:mt-11 md:mb-6 my-6'>
+                                           <div className='md:mx-0 mx-auto'>  <img src={play} alt="google" />
+                                           </div>
+                                           <div className='lg:mx-0 mx-auto'>  <img src={appsTore} alt="google" />
+                                           </div>
+                   
+                                       </div>
                     </div>
 
                     {/* image */}

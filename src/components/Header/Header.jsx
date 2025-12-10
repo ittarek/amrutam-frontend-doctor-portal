@@ -35,8 +35,8 @@ export const Header = () => {
       <div>
           <TopBar/>
           <section className="main_header_section flex flex-col justify-center items-center gap-y-4 bg-[#FFF7E2]">
-       <img src={logo} alt="" />
 
+              <Link to="/">       <img src={logo} alt="" /></Link>
               {/* nav items */}
               <nav>
       <ul className="flex gap-6 items-center px-2">
