@@ -38,7 +38,7 @@ export const Choosing = () => {
                     {/* images */}
                     <div className='relative mx-auto lg:mx-0 w-[170px] lg:w-auto mb-34 lg:mb-0'>
                         <img className='relative' src={callBg} alt="secBg" />
-                        <img className='absolute top-[1%]' src={callIcon} alt="secBg" />
+                        <img className='absolute top-[1%] w-11 md:w-auto' src={callIcon} alt="secBg" />
 
                         <img className='right absolute top-[8%] right-0 left-[50%]  bottom-0' src={right} alt="secBg" />
                         <img className='left absolute top-[70%] bottom-0  -left-16 right-[%]' src={left} alt="secBg" />
@@ -63,7 +63,7 @@ export const Choosing = () => {
                     {/* images */}
                     <div className='relative mx-auto lg:mx-0  w-[170px] lg:w-auto mb-52 lg:mb-0'>
                         <img className='relative' src={bg2} alt="secBg" />
-                        <img className='absolute top-[1%]' src={connectionIcon} alt="secBg" />
+                        <img className='absolute top-[1%] w-11 md:w-auto' src={connectionIcon} alt="secBg" />
 
                         <img className='right absolute top-[8%] right-0 left-[50%]  bottom-0' src={connectionRight} alt="secBg" />
                         <img className='left absolute top-[70%] bottom-0  -left-16 right-[%]' src={connectionLeft} alt="secBg" />
@@ -90,10 +90,10 @@ export const Choosing = () => {
                     {/* images */}
                     <div className='relative mx-auto lg:mx-0  w-[170px] lg:w-auto mb-34 lg:mb-0'>
                         <img className='relative' src={chatBg} alt="secBg" />
-                        <img className='absolute top-[14%] right-0 bg-[#DBDCC4] rounded-full p-3' src={chatIcon} alt="secBg" />
+                        <img className='absolute top-[14%] right-0 bg-[#DBDCC4] rounded-full p-3 w-11 md:w-auto' src={chatIcon} alt="secBg" />
 
                         <img className='right absolute top-[60%] right-0 left-[35%]  bottom-0' src={chatRight} alt="secBg" />
-                        <img className='left absolute top-[15%]  -left-25 right-[%]' src={chatLeft} alt="secBg" />
+                        <img className='left absolute top-[15%]  md:-left-25 -left-18 right-[%]' src={chatLeft} alt="secBg" />
 
                     </div>
                     <SectionDesc
@@ -115,7 +115,7 @@ export const Choosing = () => {
                     {/* images */}
                     <div className='relative lg:mx-0 mx-auto  w-[170px] lg:w-auto mb-34 lg:mb-0'>
                         <img className='relative' src={walletBg} alt="secBg" />
-                        <img className='absolute top-[1%] rounded-full bg-[#DBDCC4] p-4' src={walletIcon} alt="secBg" />
+                        <img className='absolute top-[1%] rounded-full bg-[#DBDCC4] p-4 w-11 md:w-auto' src={walletIcon} alt="secBg" />
 
                         <img className='right absolute top-[8%] right-0 left-[50%]  bottom-0' src={walletRight} alt="secBg" />
                         <img className='left absolute top-[70%] bottom-0  -left-16 right-[%]' src={walletLeft} alt="secBg" />
@@ -140,7 +140,7 @@ export const Choosing = () => {
                     {/* images */}
                     <div className='relative mx-auto lg:mx-0  w-[170px] lg:w-auto mb-34 lg:mb-0'>
                         <img className='relative' src={chatBg} alt="secBg" />
-                        <img className='absolute top-[14%] right-0 bg-[#DBDCC4] rounded-full p-3' src={timingIcon} alt="secBg" />
+                        <img className='absolute top-[14%] right-0 bg-[#DBDCC4] rounded-full p-3 w-11 md:w-auto' src={timingIcon} alt="secBg" />
 
                         <img className='right absolute top-[70%] right-0 left-[35%]  bottom-0 bg-white p-4 rounded-3xl' src={timingRight} alt="secBg" />
                         <img className='left absolute top-[15%]  -left-25 right-[%]' src={timingLeft} alt="secBg" />
