@@ -9,7 +9,7 @@ export const Banner = () => {
     return (
         <div className='banner bg-linear-to-r from-[#FFECB9] to-[#FFF6DD] mt-2'>
             <Container>
-                <div className=' lg:flex  justify-between  items-center w-full'>
+                <div className=' lg:flex  justify-between  items-center w-full py-11 lg:py-28'>
                     {/* banner text  side*/}
                     <div className="banner_content w-full  lg:w-[715x] ">
                         {/* with button and main content */}
