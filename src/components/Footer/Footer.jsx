@@ -110,7 +110,7 @@ export const Footer = () => {
                             <h3 className="font-['DM_Sans'] font-semibold text-base md:text-lg text-[#3A643B] mb-3">
                                 Subscribe to our Newsletter
                             </h3>
-                            <div className="flex gap-2">
+                            <div className="flex md:flex-row flex-col md:gap-2 gap-4">
                                 <input
                                     type="email"
                                     placeholder="Enter your email"
