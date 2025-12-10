@@ -36,7 +36,7 @@ export const Choosing = () => {
                 {/* calling section */}
                 <section className='flex flex-wrap justify-between items-center mb-44 '>
                     {/* images */}
-                    <div className='relative mx-auto lg:mx-0 w-[180px] lg:w-auto mb-34 lg:mb-0'>
+                    <div className='relative mx-auto lg:mx-0 w-[170px] lg:w-auto mb-34 lg:mb-0'>
                         <img className='relative' src={callBg} alt="secBg" />
                         <img className='absolute top-[1%]' src={callIcon} alt="secBg" />
 
@@ -61,7 +61,7 @@ export const Choosing = () => {
                 {/* connection section */}
                 <section className='flex flex-wrap  flex-row-reverse justify-between items-center mb-64 '>
                     {/* images */}
-                    <div className='relative mx-auto lg:mx-0  w-[180px] lg:w-auto mb-52 lg:mb-0'>
+                    <div className='relative mx-auto lg:mx-0  w-[170px] lg:w-auto mb-52 lg:mb-0'>
                         <img className='relative' src={bg2} alt="secBg" />
                         <img className='absolute top-[1%]' src={connectionIcon} alt="secBg" />
 
@@ -88,7 +88,7 @@ export const Choosing = () => {
                 {/*chatting section  */}
                 <section className='flex flex-wrap   justify-between items-center mb-44 '>
                     {/* images */}
-                    <div className='relative mx-auto lg:mx-0  w-[180px] lg:w-auto mb-34 lg:mb-0'>
+                    <div className='relative mx-auto lg:mx-0  w-[170px] lg:w-auto mb-34 lg:mb-0'>
                         <img className='relative' src={chatBg} alt="secBg" />
                         <img className='absolute top-[14%] right-0 bg-[#DBDCC4] rounded-full p-3' src={chatIcon} alt="secBg" />
 
@@ -113,7 +113,7 @@ export const Choosing = () => {
                 {/*wallet section  */}
                 <section className='flex flex-wrap flex-row-reverse  justify-between items-center mb-44 '>
                     {/* images */}
-                    <div className='relative lg:mx-0 mx-auto  w-[180px] lg:w-auto mb-34 lg:mb-0'>
+                    <div className='relative lg:mx-0 mx-auto  w-[170px] lg:w-auto mb-34 lg:mb-0'>
                         <img className='relative' src={walletBg} alt="secBg" />
                         <img className='absolute top-[1%] rounded-full bg-[#DBDCC4] p-4' src={walletIcon} alt="secBg" />
 
@@ -138,7 +138,7 @@ export const Choosing = () => {
                 {/*timing section  */}
                 <section className='flex flex-wrap  justify-between items-center mb-44 '>
                     {/* images */}
-                    <div className='relative mx-auto lg:mx-0  w-[180px] lg:w-auto mb-34 lg:mb-0'>
+                    <div className='relative mx-auto lg:mx-0  w-[170px] lg:w-auto mb-34 lg:mb-0'>
                         <img className='relative' src={chatBg} alt="secBg" />
                         <img className='absolute top-[14%] right-0 bg-[#DBDCC4] rounded-full p-3' src={timingIcon} alt="secBg" />
 
