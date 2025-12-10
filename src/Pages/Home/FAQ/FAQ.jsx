@@ -7,6 +7,7 @@ import {
     AccordionTrigger,
 } from "@/components/ui/accordion"
 import { Container } from '@/components/Shared/Container'
+import { Button } from '@/components/ui/button'
 export const FAQ = () => {
     return (
         <Container>
@@ -112,6 +113,10 @@ export const FAQ = () => {
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>
+
+                <div className='flex justify-center items-center my-11 '>
+                    <Button variant="main" className=""> See More</Button>
+                </div>
             </div>
         </Container>
     )

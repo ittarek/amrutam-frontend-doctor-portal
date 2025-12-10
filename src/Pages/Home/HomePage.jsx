@@ -6,6 +6,7 @@ import { Joining } from './Joining/Joining'
 import { Connect } from './Connect/Connect'
 import { FAQ } from './FAQ/FAQ'
 import { Testimonials } from './Testimonial/Testimonials'
+import { Appointment } from './Appointment/Appointment'
 
 
 export const HomePage = () => {
@@ -14,10 +15,10 @@ export const HomePage = () => {
             <Featured />
             <Choosing />
             <Joining />
-            <Testimonials/>
-<FAQ/>
-
-            <Connect/>
+            <Testimonials />
+            <FAQ />
+<Appointment/>
+            <Connect />
         </>
     )
 }

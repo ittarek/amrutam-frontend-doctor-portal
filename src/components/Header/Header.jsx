@@ -5,7 +5,7 @@ import logo from "@/assets/logo.png"
 
 // src/data/navItems.js
 
-export const navItems = [
+ const navItems = [
   {
     id: 1,
     name: "About Us",
@@ -39,9 +39,9 @@ export const Header = () => {
 
               {/* nav items */}
               <nav>
-      <ul className="flex gap-6">
+      <ul className="flex gap-6 items-center px-2">
         {navItems.map((item) => (
-            <li className="text-[#474747] font-[' Poppins'] font-normal text-[20px] leading-[140%] capitalize " key={item.id}>
+            <li className="text-[#474747] font-[' Poppins'] font-normal lg:text-[20px] md:text-[18px] text-md leading-[140%] capitalize  " key={item.id}>
             <Link to={item.link}>{item.name}</Link>
           </li>
         ))}
