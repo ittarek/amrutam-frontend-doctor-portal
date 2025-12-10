@@ -68,7 +68,7 @@ export const Joining = () => {
             {/* integrate section */}
             <Container>
                 {/* 3 buttons */}
-                <div className='flex flex-wrap justify-center items-center gap-6 lg:mt-0 mt-32 lg:mb-24 mb-11'>
+                <div className='flex flex-wrap justify-center items-center gap-6 lg:mt-0 mt-32 lg:mb-24 mb-11 px-2 lg:px-0'>
                     <Button variant="main">Consultation</Button>
                     <Button className="bg-transparent text-[#3A643C] border-[#CDD2B8]" variant="outline">Payment withdrawal </Button>
                     <Button variant="outline" className="bg-transparent text-[#3A643C] border-[#CDD2B8]" >Schedule</Button>
