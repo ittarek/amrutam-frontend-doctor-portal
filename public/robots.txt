@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /
+Disallow: /faq
+
+
+Sitemap: https://amrutam.co.in/sitemap.xml
