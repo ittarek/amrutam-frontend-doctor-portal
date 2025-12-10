@@ -4,4 +4,4 @@ Disallow: /
 Disallow: /faq
 
 
-Sitemap: https://amrutam.co.in/sitemap.xml
+Sitemap: https://amrutam-frontend-doctor-portal.vercel.app/sitemap.xml
