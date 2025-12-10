@@ -34,9 +34,9 @@ export const Choosing = () => {
 
                 
                 {/* calling section */}
-                <section className='flex flex-wrap justify-between items-center mb-44 px-2 lg:px-0 '>
+                <section className='flex flex-wrap justify-between items-center mb-28 px-2 lg:px-0 '>
                     {/* images */}
-                    <div className='relative mx-auto lg:mx-0 w-[170px] lg:w-auto mb-34 lg:mb-0'>
+                    <div className='relative mx-auto lg:mx-0 w-[170px] lg:w-auto mb-24 lg:mb-0'>
                         <img className='relative' src={callBg} alt="secBg" />
                         <img className='absolute top-[1%] w-11 md:w-auto' src={callIcon} alt="secBg" />
 
@@ -86,9 +86,9 @@ export const Choosing = () => {
 
                 </section>
                 {/*chatting section  */}
-                <section className='flex flex-wrap   justify-between items-center mb-44 px-2 lg:px-0'>
+                <section className='flex flex-wrap   justify-between items-center mb-24 px-2 lg:px-0'>
                     {/* images */}
-                    <div className='relative mx-auto lg:mx-0  w-[170px] lg:w-auto mb-34 lg:mb-0'>
+                    <div className='relative mx-auto lg:mx-0  w-[170px] lg:w-auto mb-20 lg:mb-0'>
                         <img className='relative' src={chatBg} alt="secBg" />
                         <img className='absolute top-[14%] right-0 bg-[#DBDCC4] rounded-full p-3 w-11 md:w-auto' src={chatIcon} alt="secBg" />
 
@@ -111,9 +111,9 @@ export const Choosing = () => {
 
                 </section>
                 {/*wallet section  */}
-                <section className='flex flex-wrap flex-row-reverse  justify-between items-center mb-44 px-2 lg:px-0 '>
+                <section className='flex flex-wrap flex-row-reverse  justify-between items-center mb-24 px-2 lg:px-0 '>
                     {/* images */}
-                    <div className='relative lg:mx-0 mx-auto  w-[170px] lg:w-auto mb-34 lg:mb-0'>
+                    <div className='relative lg:mx-0 mx-auto  w-[170px] lg:w-auto mb-20 lg:mb-0'>
                         <img className='relative' src={walletBg} alt="secBg" />
                         <img className='absolute top-[1%] rounded-full bg-[#DBDCC4] p-4 w-11 md:w-auto' src={walletIcon} alt="secBg" />
 
@@ -136,9 +136,9 @@ export const Choosing = () => {
 
                 </section>
                 {/*timing section  */}
-                <section className='flex flex-wrap  justify-between items-center mb-44  px-2 lg:px-0 '>
+                <section className='flex flex-wrap  justify-between items-center lg:mb-44 mb-16  px-2 lg:px-0 '>
                     {/* images */}
-                    <div className='relative mx-auto lg:mx-0  w-[170px] lg:w-auto mb-34 lg:mb-0'>
+                    <div className='relative mx-auto lg:mx-0  w-[170px] lg:w-auto mb-20 lg:mb-0'>
                         <img className='relative' src={chatBg} alt="secBg" />
                         <img className='absolute top-[14%] right-0 bg-[#DBDCC4] rounded-full p-3 w-11 md:w-auto' src={timingIcon} alt="secBg" />
 
