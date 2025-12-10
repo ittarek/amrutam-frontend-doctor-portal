@@ -36,7 +36,7 @@ export const Banner = () => {
                     </div>
 
                     {/* banner image side */}
-                    <div className='lg:w-[569px] w-[400px] mx-auto lg:mx-0 md:my-6 my-11'>
+                    <div className='lg:w-[569px] px-2 lg:px-0 mx-auto lg:mx-0 md:my-6 my-11'>
                         <img src={bannerImage} className="mx-auto" alt="" />
                     </div>
                 </div>
